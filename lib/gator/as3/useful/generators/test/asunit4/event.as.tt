@@ -1,0 +1,38 @@
+package <%= package_name %> {
+
+	import flash.events.Event;
+
+	public class <%= class_name  %> {
+
+		private var <%= instance_name %>:<%= class_name %>;
+		
+		[Test]
+		public function testInstantiated():void {
+			assertTrue("<%= instance_name %> is <%= class_name %>", <%= instance_name %> is <%= class_name %>);
+		}
+        
+		[Test]
+		public function testIsEvent():void{
+			assertTrue("<%= instance_name %> is Event", <%= instance_name %> is Event);
+		}
+        
+		[Test]
+        public function testCloneReturnsSameEvent():void{
+	    	var eventType:String = "testEvent";
+			var clone:<%= class_name %> = <%= instance_name %>.clone() as <%= class_name %>;
+			assertTrue("<%= class_name %> can be cloned to correct class", clone is <%= class_name %>);
+			assertTrue("<%= class_name %> clone retains event type", clone.type == "testEvent");
+		}
+		
+		[Test]
+		public function testEventStrings():void{
+		   	assertTrue("<%= class_name %>.EVENT_TYPE has correct string", <%= class_name %>.EVENT_TYPE == 'eventType');
+		}
+
+		[Test]
+		public function testFailure():void {
+			assertTrue("Failing test", false);
+		}
+		
+	}
+}
