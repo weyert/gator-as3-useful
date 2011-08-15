@@ -1,6 +1,6 @@
 require File.expand_path(File.dirname(__FILE__) + '/../spec_helper')
 
-describe Gator::AS3::RobotLegs::GeneratorCollection do
+describe Gator::AS3::Useful::GeneratorCollection do
   it "should have some tests"
 end
 

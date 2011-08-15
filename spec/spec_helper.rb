@@ -4,7 +4,7 @@ require 'rspec'
 require 'thor'
 require 'gator'
 require 'gator/as3/generators'
-require File.dirname(__FILE__) + '/../lib/gator/as3/robotlegs/generators'
+require File.dirname(__FILE__) + '/../lib/gator/as3/useful/generators'
 
 # Requires supporting files with custom matchers and macros, etc,
 # in ./support/ and its subdirectories.
