@@ -1,4 +1,4 @@
-= gator-as3-robotlegs
+= gator-as3-useful
 
 Add this to your gator project file to use the generators:
     require "gator/as3/robotlegs/generators"
@@ -9,7 +9,7 @@ For FlexUnit4 test generators add:
 For ASUnit4 test generators add:
     require "gator/as3/robotlegs/generators/test/asunit4"
 
-== Contributing to gator-as3-robotlegs
+== Contributing to gator-as3-useful
  
 * Check out the latest master to make sure the feature hasn't been implemented or the bug hasn't been fixed yet
 * Check out the issue tracker to make sure someone already hasn't requested it and/or contributed it
