@@ -22,6 +22,6 @@ For ASUnit4 test generators add:
 
 == Copyright
 
-Copyright (c) 2011 devboy. 
+Copyright (c) 2012 Weyert de Boer.
 See LICENSE.txt for further details.
 
